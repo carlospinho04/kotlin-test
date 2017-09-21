@@ -22,17 +22,17 @@ processors:
 console-reports:
   active: true
   exclude:
-    - 'ProjectStatisticsReport'
-    - 'ComplexityReport'
-    - 'NotificationReport'
-    - 'FindingsReport'
-    - 'BuildFailureReport'
+  #  - 'ProjectStatisticsReport'
+  #  - 'ComplexityReport'
+  #  - 'NotificationReport'
+  #  - 'FindingsReport'
+  #  - 'BuildFailureReport'
 
 output-reports:
   active: true
   exclude:
-    - 'PlainOutputReport'
-    - 'XmlOutputReport'
+  #  - 'PlainOutputReport'
+  #  - 'XmlOutputReport'
 
 potential-bugs:
   active: true
