@@ -7,6 +7,7 @@ import java.util.*
 import kotlin.properties.*
 
 class AuthenticationContext {
+    var x = 2
     var principal by Delegates.vetoable<Principal?>(null) { _, old, _ -> require(old == null); true }
     val errors = HashMap<Any, NotAuthenticatedCause>()
     val challenge = AuthenticationProcedureChallenge()

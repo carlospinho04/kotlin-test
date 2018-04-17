@@ -1,7 +1,5 @@
 package hello
-/**
- *This is a test 
- */
+
 
 enum class Test {
     IDK, TQWE, QWFK
